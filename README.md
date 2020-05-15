@@ -40,7 +40,7 @@ Install the helm chart
 You should see 1 master pod, 1 search head pod and 3 indexer pods w.r.t Splunk. Additionally, a nginx pod and a helm chart pod are started as well.
 
 ```
-$ kubectl -n splunk3 get pods
+$ kubectl -n splunk get pods
 NAME                                      READY   STATUS    RESTARTS   AGE
 chart-1589474584-splunk-6cc858b6b-2jn5l   1/1     Running   0          73s
 indexer-0                                 1/1     Running   0          73s
